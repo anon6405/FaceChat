@@ -38,8 +38,8 @@ vs = VideoStream(src=0).start()
 time.sleep(2.0)
 
 fps = FPS().start()
-
-while True:
+a = True
+while(a==True):
 	frame = vs.read()
 
 	frame = imutils.resize(frame, width=600)
@@ -81,7 +81,11 @@ while True:
 				(0, 0, 255), 2)
 			cv2.putText(frame, text, (startX, y),
 				cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 0, 255), 2)
-
+			fire = "firefox http://10.4.168.70:3000/"
+			if(name == "shaffi"):
+				os.system(fire)
+				a = False     				 
+        
 	fps.update()
 
 	cv2.imshow("Frame", frame)

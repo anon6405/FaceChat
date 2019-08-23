@@ -12,8 +12,6 @@ app.get('/', (req, res) => {
 
 server = app.listen(3000)
 
-
-
 const io = require("socket.io")(server)
 
 
