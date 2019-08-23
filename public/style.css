@@ -17,10 +17,13 @@ html {
 body {
     margin: 0px;
     height: 100%;
+    background-image: url("chaman.jpg");
+       
 }
 
 header {
     text-align: center;
+    
 }
 
 h1 {
@@ -29,17 +32,17 @@ h1 {
 }
 
 div#change_username, section#input_zone {
-    border: 5px outset #8258FA;
+    border: 5px outset #00295B;
 }
 
 div#change_username {
     height: 3%;
     display: inline-block;
-    background-color: #BCA9F5;
+    background-color: #ccccb3;
 }
 
 section#chatroom {
-    border: 5px inset #8258FA;
+    
     height: 85%;
     overflow: auto;
 }
@@ -47,7 +50,7 @@ section#chatroom {
 section#input_zone {
     height: 7%;
     text-align: center;
-    background-color: #BCA9F5;
+    background-color: #ccccb3;
 }
 
 .vertical-align {
@@ -83,12 +86,14 @@ p.message {
     font-size: 2vh;
     font-family: 'Comfortaa', sans-serif;
     padding: 1vh;
+	
 }
 
 .message:nth-child(even) {
-    background-color: #81DAF5;
+    
 }
 
 .message:nth-child(odd) {
-    background-color: #81BEF7;
+    
 }
+
