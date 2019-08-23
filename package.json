@@ -1,0 +1,23 @@
+{
+  "name": "FaceChat",
+  "version": "1.0.0",
+  "description": "Simple chat app built with node.js and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anon6405/FaceChat.git"
+  },
+  "author": "Tech3vils",
+  "homepage": "https://github.com/anon6405/FaceChat",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.3",
+    "socket.io": "^2.0.4"
+  }
+}
+
