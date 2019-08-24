@@ -11,12 +11,13 @@
   <body>
     <header>
       <h1>Welcome To Tech3vils's Chatroom.</h1>
+      <p>Welcome <%= qs.username %></p>
     </header>
 
     <section>
       <div id="change_username">
-	<input id="username" type="text" />
-	<button id="send_username" type="button">Change username</button>
+	<input id="username" type="text" value="<%= qs.username %>"/>
+	<input id="send_username" type="button"/>
       </div>
     </section>
 
